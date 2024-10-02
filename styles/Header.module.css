@@ -1,0 +1,26 @@
+/* ヘッダーのスタイル */
+header {
+  background-color: #333;  /* ヘッダーの背景色をダークグレーに設定 */
+  padding: 10px 20px;  /* ヘッダー内の余白を設定 */
+  color: white;  /* テキストカラーを白に設定 */
+}
+
+/* ナビゲーションリストのスタイル */
+nav ul {
+  list-style: none;  /* リストのマーカーを削除 */
+  display: flex;  /* リスト項目を横に並べる */
+  justify-content: space-around;  /* 各項目を均等に配置 */
+}
+
+/* リスト項目のスタイル */
+nav li {
+  margin: 0 15px;  /* リスト項目の間にマージンを追加 */
+}
+
+nav a {
+  color: white;  /* リンクの色を白に設定 */
+}
+
+nav a:hover {
+  color: #0070f3;  /* ホバー時のリンク色を青に設定 */
+}
